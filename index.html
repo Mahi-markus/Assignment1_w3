@@ -37,6 +37,7 @@
             align-items: center;
             background-color: transparent;
             padding: 5px 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         .navbar  {
@@ -154,7 +155,7 @@
             background-color: transparent;
             color: rgb(48, 38, 38);
             border: 1px solid black;
-            border-radius: 5px;
+            border-radius: 21px;
             cursor: pointer;
             font-size: 16px;
             transition: background-color 0.3s;
@@ -422,7 +423,7 @@
             background: #1a73e8;
             color: white;
             border: none;
-            border-radius: 6px;
+            border-radius: 21px;
             font-size: 1rem;
             cursor: pointer;
         }
@@ -1132,16 +1133,18 @@ display: flex;
         .contact-button {
             display: inline-block;
             padding: 0.8rem 1.5rem;
-            background: #0073e6;
-            color: white;
+            background: transparent;
+            color: #0073e6;
             text-decoration: none;
-            border-radius: 6px;
+            border-radius: 21px;
             margin-top: 1.5rem;
             font-weight: 500;
+            border: 1px solid #0073e6;
         }
 
         .contact-button:hover {
             background: #0066cc;
+            color: white;
         }
 
         /* Responsive Design */
@@ -1321,7 +1324,7 @@ display: flex;
         <div class="explore-area">
             <h2>Explore the area</h2>
             <div class="map-container">
-                <img src="/map.jpeg" alt="Map of Juneau area">
+                <img src="/map2.webp" alt="Map of Juneau area">
                 <div class="location-label">
                     <h3>Juneau, Alaska</h3>
                     <a href="#" class="view-map-link">View in a map</a>
@@ -1563,18 +1566,13 @@ display: flex;
         <div class="amenities-grid">
             <!-- Kitchen -->
             <div class="amenity-item">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
-                </svg>
+                <i class="fas fa-utensils"></i> 
                 Kitchen
             </div>
     
             <!-- Washer -->
             <div class="amenity-item">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="9"/>
-                    <path d="M8 12h8"/>
-                </svg>
+                <i class="fas fa-tshirt"></i>
                 Washer
             </div>
     
@@ -1589,10 +1587,7 @@ display: flex;
     
             <!-- Outdoor Space -->
             <div class="amenity-item">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 10h16V4H4z"/>
-                    <path d="M4 10v10h16V10z"/>
-                </svg>
+                <i class="fas fa-tree"></i>
                 Outdoor Space
             </div>
     
@@ -1606,9 +1601,8 @@ display: flex;
     
             <!-- Ocean view -->
             <div class="amenity-item">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M3 18h18M3 12h18M3 6h18"/>
-                </svg>
+                <i class="fas fa-tint"></i>
+
                 Ocean view
             </div>
         </div>
