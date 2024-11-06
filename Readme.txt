@@ -1,0 +1,1 @@
+This website is built with html5 and css3.It consists of few modules into provide services and information to the specific customers.And also it builts in a way that it can provide responsiveness to any kinds of devices.
