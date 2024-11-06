@@ -926,7 +926,7 @@ display: flex;
             height: 2px;
             background: #ddd;
             position: relative;
-            margin: 30px 0;
+            margin: 20px 0;
         }
 
         .timeline-points {
@@ -1253,12 +1253,12 @@ display: flex;
                 <div class="amenities">
                     <h2>Popular amenities</h2>
                     <div class="features">
-                        <div class="feature">Kitchen</div>
-                        <div class="feature">Washer</div>
-                        <div class="feature">Dryer</div>
-                        <div class="feature">Parking</div>
-                        <div class="feature">BBQ grill</div>
-                        <div class="feature">Outdoor space</div>
+                        <div class="feature"><i class="fas fa-utensils"></i> Kitchen</div>
+                        <div class="feature"> <i class="fas fa-glass-water"></i> Washer</div>
+                        <div class="feature"> <i class="fas fa-tshirt"></i>Dryer</div>
+                        <div class="feature"><i class="fas fa-parking"></i> Parking</div>
+                        <div class="feature"><i class="fas fa-fire"></i>BBQ grill</div>
+                        <div class="feature"><i class="fas fa-tree"></i>Outdoor space</div>
                     </div>
                 </div>
 
@@ -1288,7 +1288,7 @@ display: flex;
                 <div class="cancellation">
                     <p class="cancel1">free cancellation available</p>
                     <p class="cancel2">before mon Nov,4</p>
-                    <p class="cancel3">our dates availabley <i class="fa-thin fa-circle-check"></i></p>
+                    <p class="cancel3"><i class="fas fa-check"></i> our dates availabley </p>
                 </div>
                 <form>
                     <div class="date-picker">
@@ -1434,10 +1434,11 @@ display: flex;
                 
                 <div class="space-item">
                     <svg class="space-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+                        <path d="M2 12h20v2H2zm2 4h16v2H4zm2 4h12v2H6z"/>
                     </svg>
                     <span>Balcony</span>
                 </div>
+                
                 
                 <div class="space-item">
                     <svg class="space-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -1552,16 +1553,18 @@ display: flex;
         <h3 class="languages-title">Languages</h3>
         <div class="languages-list">English, French, German, Spanish</div>
     </div>
-
     <div class="amenities-section">
         <h3 class="amenities-title">Amenities</h3>
         <div class="amenities-grid">
+            <!-- Kitchen -->
             <div class="amenity-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M20 9V4H4v5m16 0H4m16 0v9H4V9"/>
+                    <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
                 </svg>
                 Kitchen
             </div>
+    
+            <!-- Washer -->
             <div class="amenity-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="12" cy="12" r="9"/>
@@ -1569,6 +1572,8 @@ display: flex;
                 </svg>
                 Washer
             </div>
+    
+            <!-- Dryer -->
             <div class="amenity-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="12" cy="12" r="9"/>
@@ -1576,19 +1581,25 @@ display: flex;
                 </svg>
                 Dryer
             </div>
+    
+            <!-- Outdoor Space -->
             <div class="amenity-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="4" y="4" width="16" height="16" rx="2"/>
-                    <path d="M9 12h6"/>
+                    <path d="M4 10h16V4H4z"/>
+                    <path d="M4 10v10h16V10z"/>
                 </svg>
                 Outdoor Space
             </div>
+    
+            <!-- Parking available -->
             <div class="amenity-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M5 8h14M5 8v10M19 8v10M5 18h14"/>
+                    <path d="M16 6h2v12h-2zM6 6h2v12H6zM8 12h8"/>
                 </svg>
                 Parking available
             </div>
+    
+            <!-- Ocean view -->
             <div class="amenity-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M3 18h18M3 12h18M3 6h18"/>
@@ -1596,6 +1607,8 @@ display: flex;
                 Ocean view
             </div>
         </div>
+    </div>
+    
         <a href="#" class="see-all-amenities">See all 34 amenities</a>
     </div>
 
@@ -1621,19 +1634,19 @@ display: flex;
         </div>
         <div class="rules-grid">
             <div class="rule-item">
-                <h4 class="rule-heading">Children</h4>
+                <h4 class="rule-heading"><i class="fas fa-child"></i>  Children</h4>
                 <div class="rule-text">Children allowed: ages 0-17</div>
             </div>
             <div class="rule-item">
-                <h4 class="rule-heading">Events</h4>
+                <h4 class="rule-heading"><i class="fas fa-calendar-alt"></i>  Events</h4>
                 <div class="rule-text">No events allowed</div>
             </div>
             <div class="rule-item">
-                <h4 class="rule-heading">Pets</h4>
+                <h4 class="rule-heading"><i class="fas fa-paw"></i>   Pets</h4>
                 <div class="rule-text">No pets allowed</div>
             </div>
             <div class="rule-item">
-                <h4 class="rule-heading">Smoking</h4>
+                <h4 class="rule-heading"><i class="fas fa-smoking-ban"></i>   Smoking</h4>
                 <div class="rule-text">Smoking is not permitted</div>
             </div>
         </div>
